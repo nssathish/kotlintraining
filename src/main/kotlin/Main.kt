@@ -18,12 +18,12 @@ fun main() {
     println(StringManipulation().longestSubsequence("aaaabbbbbbaacccddddddddddddddbbb"))
     println(StringManipulation().longestSubsequence("aaaa"))
 
-    val device = SmartDevice()
-    println("""
-        Device name: ${device.name}
-        Device Category: ${device.category}
-        Device status: ${device.deviceStatus}
-    """.trimIndent())
+    val device = SmartDevice("Android TV", "Entertainment")
+//    println("""
+//        Device name: ${device.name}
+//        Device Category: ${device.category}
+//        Device status: ${device.deviceStatus}
+//    """.trimIndent())
 //    device.speakerVolume = 100
 
     println("Speaker volume: ${device.speakerVolume}")
