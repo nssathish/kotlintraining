@@ -26,7 +26,7 @@ fun main() {
 //    """.trimIndent())
 //    device.speakerVolume = 100
 
-    println("Speaker volume: ${device.speakerVolume}")
+    println("Speaker volume now: ${device.speakerVolume}")
     device.turnOn()
     device.turnOff()
 }
